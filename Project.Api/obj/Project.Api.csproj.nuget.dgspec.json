@@ -1,0 +1,265 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Api\\Project.Api.csproj": {}
+  },
+  "projects": {
+    "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Api\\Project.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Api\\Project.Api.csproj",
+        "projectName": "Project.Api",
+        "projectPath": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Api\\Project.Api.csproj",
+        "packagesPath": "C:\\Users\\well_\\.nuget\\packages\\",
+        "outputPath": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\well_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Service\\Project.Service.csproj": {
+                "projectPath": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Service\\Project.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Domain\\Project.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Domain\\Project.Domain.csproj",
+        "projectName": "Project.Domain",
+        "projectPath": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Domain\\Project.Domain.csproj",
+        "packagesPath": "C:\\Users\\well_\\.nuget\\packages\\",
+        "outputPath": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\well_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Repository\\Project.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Repository\\Project.Repository.csproj",
+        "projectName": "Project.Repository",
+        "projectPath": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Repository\\Project.Repository.csproj",
+        "packagesPath": "C:\\Users\\well_\\.nuget\\packages\\",
+        "outputPath": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\well_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Domain\\Project.Domain.csproj": {
+                "projectPath": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Domain\\Project.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Service\\Project.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Service\\Project.Service.csproj",
+        "projectName": "Project.Service",
+        "projectPath": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Service\\Project.Service.csproj",
+        "packagesPath": "C:\\Users\\well_\\.nuget\\packages\\",
+        "outputPath": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\well_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Repository\\Project.Repository.csproj": {
+                "projectPath": "E:\\CodeBox\\Project-Estudos\\GitHub\\C9-TDD\\ProjectCustomer\\Project.Repository\\Project.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
