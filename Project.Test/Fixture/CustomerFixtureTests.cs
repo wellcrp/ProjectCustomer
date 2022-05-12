@@ -10,21 +10,21 @@ namespace Project.Test.Fixture
 
     public class CustomerFixtureTests : IDisposable
     {
-        public CustomerModel GenerateUniqueCustomerSuccess() => new CustomerModel(37, "Wellington", "wellington.cunha@zup.com.br");
-        public CustomerModel GenerateUniqueCustomerNomeEmBrancoIdadeZerada() => new CustomerModel(0, "", "wellington.cunha@zup.com.br");
+        public CustomerModel GenerateUniqueCustomerSuccess() => new CustomerModel(37, "Wellington", "wellington@mailer.com.br");
+        public CustomerModel GenerateUniqueCustomerNomeEmBrancoIdadeZerada() => new CustomerModel(0, "", "wellington@mailer.com.br");
 
         public IList<CustomerModel> GenerateListOneCustomerSuccess()
         {
             return new List<CustomerModel>
             {
-                new CustomerModel(28, "Wellington", "wellington.cunha@zup.com.br"),
+                new CustomerModel(28, "Wellington", "wellington@mailer.com.br"),
             };
         }
         public IList<CustomerModel> GenerateListOneCustomerNomeEmBranco()
         {
             return new List<CustomerModel>
             {
-                new CustomerModel(28, "Wellington", "wellington.cunha@zup.com.br"),                
+                new CustomerModel(28, "Wellington", "wellington@mailer.com.br"),                
             };
         }
 
@@ -32,9 +32,9 @@ namespace Project.Test.Fixture
         {
             return new List<CustomerModel>
             {
-                new CustomerModel(28, "Wellington", "wellington.cunha@zup.com.br"),
-                new CustomerModel(29, "Wellington Cristiano", "cristiano.cunha@zup.com.br"),
-                new CustomerModel(30, "Wellington Cunha", "cunha.cunha@zup.com.br")
+                new CustomerModel(28, "Wellington", "wellington@mailer.com.br"),
+                new CustomerModel(29, "Wellington Cristiano", "wellington@mailer.com.br"),
+                new CustomerModel(30, "Wellington Cunha", "wellington@mailer.com.br")
             };
         }
 
